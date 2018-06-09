@@ -7,6 +7,6 @@ f9c is an encrypted instant messaging client.
 ## Documentation
 * [Architecture](architecture.md)
 * [Development](development.md)
-* [Usage](usage.md)
+* [Android App Usage](android-usage.md)
 
 
