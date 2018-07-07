@@ -9,9 +9,10 @@ To build the client libraries and server docker image execute:
 
 Execute
 
-    F9C_DOMAIN=<yourdomain> docker-compose up
+    F9C_BOT_DOMAIN=<ip address of server> docker-compose up
 
-in the projects root directory. This will start with listening port 8443. 
+in the projects root directory. This will start with listening port 443. In local development mode ssl certificates are
+not validated. 
 
 ## Deploying to a cloud instance
 
@@ -32,4 +33,13 @@ Use
 
     docker-compose -f /etc/docker-compose.yml pull
 
-to update the images.
+to update the docker images.
+
+## Getting people to use you server
+
+Send the link
+
+    https://play.google.com/store/apps/details?id=com.github.f9c.android&referrer=<your domain>
+    
+to potential users. By including your server domain as referrer it will be configured as primary server during the 
+app installation.
